@@ -1,0 +1,140 @@
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+  }
+  
+  .navbar a {
+    float: right;
+    display: block;
+    color: #747474;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .navbar a:hover {
+    background:#00b39b;
+    color: white;
+  }
+  
+   .navbar {
+    display: flex;
+    justify-content: space-around;
+   }
+   .halfnav {
+    margin-top: 30px;
+    font-weight: bold;
+   }
+   #logo2 { 
+    text-align: center;
+  }
+  h1{
+    text-align: center;
+    color: #00b39b;
+  }
+  .para {
+    display: flex;
+    justify-content:center;
+  }
+  .ach {
+    width: 500px;
+    
+  }
+  .card {
+    display: flex;
+  gap: 30px;
+  justify-content: center;
+  }
+  
+  .card-one {
+    background-color: #00b39b;
+    color:white;
+    width: 230px;
+  }
+.card-two{
+  background-color: #3D83DF;
+  color:white;
+    width: 230px;
+}
+.card-three{
+  background-color: #1B2734;
+  color:white;
+    width:230px;
+}
+/* /* .logos {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between ;
+   */
+  .logos-prim{
+    display: flex ;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+.gridtot {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  background: #e5faf8;
+  background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+  gap: 20px;
+}
+.gridtot-one {
+grid-area: 1 / 3 /3 / 4;
+background-color: white;
+gap: 10px;
+}
+.gridtot-two {
+  grid-area: 1 / 4 / 3 / 5;
+  background-color: white;
+  gap: 20px;
+}
+.gridtot-three {
+  grid-area:3 / 3 / 5 / 4 ;
+  background-color: white;
+  gap: 20px;
+}
+.gridtot-four {
+  grid-area:3/ 4 / 5 / 5 ;
+  background-color: white;
+  gap: 20px;
+}
+ #titletwo {
+  grid-row-start: 3;
+  grid-row-end:4;
+  width: 350px;
+ }
+ #titleone {
+  width: 300px;
+  font-weight: normal;
+  margin-inline-start:0%;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+h3 {
+  text-align: center;
+}
+.image {
+  text-align: center;
+}
+.logodoc {
+  grid-area: 4 / 1 / 6 / 3;
+  width: 130px;
+}
+.contries {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 40px;
+  justify-content: center;
+}
+#parag{
+  text-align: center;
+  width: 500px;
+  margin: auto;
+  margin-bottom: 70px;
+  color: #747474;
+}

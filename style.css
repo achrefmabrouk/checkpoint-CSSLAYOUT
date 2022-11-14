@@ -52,16 +52,19 @@
     background-color: #00b39b;
     color:white;
     width: 230px;
+    border-radius: 4%;
   }
 .card-two{
   background-color: #3D83DF;
   color:white;
     width: 230px;
+    border-radius: 4%;
 }
 .card-three{
   background-color: #1B2734;
   color:white;
     width:230px;
+    border-radius: 4%;
 }
 /* /* .logos {
   align-items: center;
